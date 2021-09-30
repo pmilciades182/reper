@@ -1,0 +1,50 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.pag{
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+
+.bloque{
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hint{
+    color: yellow;
+    background-color: black;
+}
+
+*{
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.rojo{
+ background-color: brown;
+ color: white;
+}
+
+.azul{
+background-color: cornflowerblue;
+color: white;
+}
+
+.title{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 10px;
+}
