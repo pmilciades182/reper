@@ -48,3 +48,37 @@ color: white;
     text-decoration: underline;
     padding: 10px;
 }
+
+.line4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.line4_component{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    border-left: solid;
+}
+
+.comm{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 1rem;
+}
+
+.chords{
+    background-color: bisque;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.lyr{
+    background-color: cadetblue;
+    color: black;
+    font-size: 1rem;
+    font-weight: 100;
+}
